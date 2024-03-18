@@ -12,7 +12,7 @@ const Footer = () => {
   ]
   
   return (
-    <div>
+    <div className="App">
       {socialMedia.map((media, id) => {
         return (
             <span key={id}>

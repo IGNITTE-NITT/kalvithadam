@@ -27,7 +27,6 @@ const Home = () => {
       </div>
       <hr />
       <Careers />
-      {/* <Career /> */}
       <hr />
       <Footer />
       <hr />

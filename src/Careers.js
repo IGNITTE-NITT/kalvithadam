@@ -13,7 +13,7 @@ const Careers = () => {
         {list.map((src,id) => {
             return (
                 <span className="col-md-3" key={id}>
-                    <img className="hover-pointer" src={"images/"+src+".webp"} id="careerImage" />
+                    <img className="hover-pointer" src={"images/"+src+".webp"} alt={id} id="careerImage" />
                 </span>
             )
         })}

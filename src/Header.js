@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="container row">
         <div className="container col-md-1">
-            <img src="images/logo.png" />
+            <img alt="Logo" src="images/logo.png" />
         </div>
         <div className="col-md-5"></div>
         <div className="col-md-6 justify-content-end">

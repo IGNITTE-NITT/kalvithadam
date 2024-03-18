@@ -111,6 +111,13 @@ and allied sciences programs.
         <li>B. S. (Agribusiness Management)</li>
       </ul>
 
+      <br />
+
+      <h4>ADMISSION</h4>
+      <p>
+        Seats are allotted via the TNAU counselling conducted by the university and the admissions are meritbased.
+      </p>
+
       <hr />
       <Footer />
     </div>

@@ -1,20 +1,31 @@
 import React from 'react'
+import './App.css'
 
 const Header = () => {
   return (
-    <div className="container row">
-        <div className="container col-md-1">
-            <img alt="Logo" src="images/logo.png" />
-        </div>
-        <div className="col-md-5"></div>
-        <div className="col-md-6 justify-content-end">
-            <button type="button" className="btn btn-danger font-weight-bold">Home</button>
-            &emsp;
-            <button type="button" className="btn btn-danger font-weight-bold">About Us</button>
-            &emsp;
-            <button type="button" className="btn btn-info font-weight-bold">Personality Test</button>
-        </div>
+<nav className="navbar navbar-expand-lg navbar-dark">
+  <div className="container">
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="fa fa-bars" style={{ color: "black" }}></span>
+    </button>
+    <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul className="navbar-nav">
+        <br />
+        <li className="nav-item mr-2">
+          <a className="nav-link btn btn-danger text-dark" href="/"><b>Home</b></a>
+        </li>
+        <br />
+        <li className="nav-item mr-2">
+          <a className="nav-link btn btn-danger text-dark" href="/#about"><b>About Us</b></a>
+        </li>
+        <br />
+        <li className="nav-item">
+          <a className="nav-link btn btn-danger text-dark" href="/contact"><b>Contact Us</b></a>
+        </li>
+      </ul>
     </div>
+  </div>
+</nav>
   )
 }
 

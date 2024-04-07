@@ -1,13 +1,21 @@
 import React from 'react'
 import Header from '../Header'
 import Footer from '../Footer'
+import '../App.css'
 
 const agriculture = () => {
   return (
     <div className="container">
+
+      <div className="navleft"></div>
+
       <br />
       <Header />
       <hr />
+
+      <h1 className="text-center">AGRICULTURE</h1>
+
+      <br />
       
       <p>Agriculture has now emerged as one of the popular courses after grade 12. Agriculture has different courses ranging from UG courses like BTech, BSc, BS to Diploma courses. A few of the popular courses are Horticulture, Agricultiral Engineering, Forestry and Sericulture.</p>
       <p>Agricultural courses aim to provide training to implement modern agricultural techniques and technologies in the real world scenario.</p>
@@ -115,7 +123,156 @@ and allied sciences programs.
 
       <h4>ADMISSION</h4>
       <p>
-        Seats are allotted via the TNAU counselling conducted by the university and the admissions are meritbased.
+        Seats are allotted via the TNAU counselling conducted by the university and the admissions are merit-based.
+      </p>
+
+      <br />
+
+      <h4>ELIGIBILITY</h4>
+      <p>Candidates must have secured a minimum percentage in 10+2 or equivalent from a recognised board as
+given below.</p>
+      <ul>
+        <li><b>Open Competition (OC):</b> 55 % aggregate in all the four required subjects</li>
+        <li><b>BC, BCM:</b> 50 % aggregate in all the four required subjects</li>
+        <li><b>MBC & DNC:</b> 45 % aggregate in all the four required subjects</li>
+        <li><b>SC, SCA, ST:</b> A pass in the qualifying examination in all the four required subjects</li>
+      </ul>
+
+      <br />
+
+      <h4>RESERVATION</h4>
+      <ul>
+        <li><b>Ex-servicemen:</b> One seat for each of the degree programs in all constituent colleges.</li>
+        <li><b>Eminent Sportsmen:</b> One seat for each of the degree programs in all constituent colleges.</li>
+      </ul>
+
+      <br />
+
+      <h4>SCHOLARSHIP</h4>
+      <ul>
+        <li>Adi Dravidar welfare scholarship</li>
+        <li>Central Government scholarships</li>
+        <li>State Government free education for students from non-graduate families</li>
+        <li>Periyar Endowment scholarships</li>
+        <li>Fellowships and scholarships from the Indian Council of Agricultural Research, New Delhi</li>
+        (These may vary according to the degree/college to which candidates are admitted and respective funding agencies.)
+      </ul>
+
+      <br />
+
+      <h4>TOP COLLEGES UNDER TNAU</h4>
+      <h5>Public:</h5>
+      <ul>
+        <li>Agricultural College and Research Institute, Coimbatore.</li>
+        <li>Agricultural Engineering College and Research Institute, Coimbatore.</li>
+        <li>Anbil Dharmalingam Agricultural College and Research Institute,Tiruchirappali.</li>
+        <li>Indian Institute of Food Processing Technology(IIFPT),Thanjavur.</li>
+        <li>Agricultural College and Research Institute, Madurai.</li>
+        <li>Community Science College and Research Institute, Madurai.</li>
+        <li>Forest College and Research Institute,Mettupalayam.</li>
+        <li>Agricultural College and Research Institute,Kumulur.</li>
+        <li>Don Bosco College of Agriculture,Ranipettai.</li>
+      </ul>
+      <h5>Private:</h5>
+      <ul>
+        <li>Kumaraguru Institute of Agriculture (KIA),Erode.</li>
+        <li>J.K.K.Munirajah College of Agricultural Science (JKKMCAS),Erode.</li>
+        <li>RVS Agricultural College,Thanjavur.</li>
+      </ul>
+
+      <br />
+
+      <h4>CONTACT DETAILS</h4>
+      <p>
+        <b>Website:</b>
+        <ul>
+          <li><a href="https://tnau.ac.in/">https://tnau.ac.in/</a></li>
+          <li><a href="https://tnau.ac.in/ugadmission/">https://tnau.ac.in/ugadmission/</a></li>
+        </ul>
+        <b>Phone:</b>
+        <ul>
+          <li>+91 422 6611345</li>
+          <li>+91 422 6611322</li>
+          <li>+91 422 6611346</li>
+          <li>+91 422 6611328</li>
+        </ul>
+        <b>Email: </b> <a href="mailto:ugadmissions@tnau.ac.in">ugadmissions@tnau.ac.in</a>
+      </p>
+
+      <hr />
+
+      <h3>TOP COLLEGES FOR AGRICULTURE IN INDIA</h3>
+
+      <br />
+
+      <p>
+        <h4>ICAR-National Dairy Research Institute (NDRI)</h4>
+        <b>Location: </b> Karnal, Haryana
+        <br />
+        <b>Website: </b> <a href="http://ndri.res.in/">http://ndri.res.in/</a>
+      </p>
+
+      <p>
+        <h4>Punjab Agricultural University</h4>
+        <b>Location: </b> Ludhiana, Punjab
+        <br />
+        <b>Website: </b> <a href="https://www.pau.edu/">https://www.pau.edu/</a>
+      </p>
+
+      <p>
+        <h4>ICAR-Indian Agricultural Research Institute</h4>
+        <b>Location: </b> New Delhi
+        <br />
+        <b>Website: </b> <a href="https://iari.res.in/">https://iari.res.in/</a>
+      </p>
+
+      <p>
+        <h4>ICAR-Indian Veterinary Research Institute</h4>
+        <b>Location: </b> Izatnagar, Bareilly
+        <br />
+        <b>Website: </b> <a href="http://www.ivri.nic.in/">http://www.ivri.nic.in/</a>
+      </p>
+
+      <p>
+        <h4>GB Pant University of Agriculture & Technology</h4>
+        <b>Location: </b> Pantnagar, Uttarakhand
+        <br />
+        <b>Website: </b> <a href="https://www.gbpuat.ac.in/">https://www.gbpuat.ac.in/</a>
+      </p>
+
+      <p>
+        <h4>Chaudhary Charan Singh, Haryana Agriculture University</h4>
+        <b>Location: </b> Hisar, Haryana
+        <br />
+        <b>Website: </b> <a href="http://hau.ac.in/">http://hau.ac.in/</a>
+      </p>
+
+      <p>
+        <h4>Guru Angad Dev Veterinary and Animal Sciences University</h4>
+        <b>Location: </b> Ludhiana, Punjab
+        <br />
+        <b>Website: </b> <a href="https://www.gadvasu.in/">https://www.gadvasu.in/</a>
+      </p>
+
+      <p>
+        <h4>Tamil Nadu Agricultural University</h4>
+        <b>Location: </b> Coimbatore, Tamil Nadu
+        <br />
+        <b>Website: </b> <a href="https://tnau.ac.in/">https://tnau.ac.in/</a>
+      </p>
+
+      <p>
+        <h4>University of Agricultural Sciences, Dharwad</h4>
+        <b>Location: </b> Dharwad
+        <br />
+        <b>Website: </b> <a href="http://www.uasd.edu/">http://www.uasd.edu/</a>
+      </p>
+
+      <p>
+        <h4>Professor Jayashankar Telangana State Agricultural University</h4>
+        <b>Location: </b> Rajendra Nagar, Hyderabad
+        <br />
+        <b>Website: </b> <a href="https://www.pjtsau.edu.in/">https://www.pjtsau.edu.in/</a>
       </p>
 
       <hr />

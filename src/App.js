@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Home';
+import Contact from './Contact'
 import NotFound from './NotFound';
 
 const DynamicImportPage = ({ page }) => {
@@ -42,6 +43,9 @@ function App() {
       <Routes>
         {/* Home Route */}
         <Route path="/" element={<Home />} />
+
+        {/* Contact Route */}
+        <Route path="/contact" element={<Contact />} />
 
         {/* Dynamic Routes */}
         {list.map((page, id) => (

@@ -106,3 +106,88 @@ div.desc {
   text-align: justify;
   text-justify: inter-word;
 }
+
+.navleft
+{
+  height: 100%;  width: 1%;  position: fixed; z-index: 1; top: 0; left: 0; background-color:red; transition: .5s ease; overflow-x: hidden; padding-top: 5px; display: flex; flex-direction: column; align-items: center;
+}
+
+.navtop
+{
+  height: 1%;  width: 100%;  position: fixed; z-index: 1; top: 0; left: 0; background-color:red; transition: .5s ease; overflow-x: hidden; padding-top: 10px; display: flex; flex-direction: row; align-items: center;
+}
+
+.timeline {
+  margin: 50px 60px;
+  height: 4px;
+  background-color: #ccc;
+}
+
+.timeline-progress {
+	width: 0;
+	height: 100%;
+	background-color: black;
+}
+
+.timeline-items {
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -12px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.timeline-item {
+	position: relative;
+}
+
+.timeline-item::before {
+	content: '';
+	width: 20px;
+	height: 20px;
+	background-color: #ccc;
+	display: block;
+	border-radius: 100%;
+}
+
+.timeline-content {
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: #ddd;
+	width: 100px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.timeline-content::before {
+	content: '';
+	width: 10px;
+	height: 10px;
+	background-color: #ddd;
+	display: block;
+	position: absolute;
+	top: -8px;
+	margin-left: -2px;
+	left: 50%;
+	transform: rotate(-45deg) translateX(-50%);
+}
+
+.timeline-item.active::before {
+	background-color: black;
+}
+
+.timeline-item.active .timeline-content {
+	color: #fff;
+	background-color: black;
+}
+
+.timeline-item.active .timeline-content::before {
+	background-color: black;
+}
+
+.navbar-toggler-icon {
+  color: #00008b; /* Your desired color */
+}

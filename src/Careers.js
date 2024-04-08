@@ -2,7 +2,8 @@ import React from 'react'
 
 const Careers = () => {
   
-  const list = ["agriculture", "architecture", "arts", "aviation", "ayurveda", "business_and_management", "commerce", "design", "engineering", "food_technology", "hotel_management", "law", "medicine", "nursing", "paramedical", "pharmacy", "public_sector", "scholarships", "science", "teaching"]
+  //const list = ["agriculture", "architecture", "arts", "aviation", "ayurveda", "business_and_management", "commerce", "design", "engineering", "food_technology", "hotel_management", "law", "medicine", "nursing", "paramedical", "pharmacy", "public_sector", "scholarships", "science", "teaching"]
+  const list = ["agriculture", "architecture", "arts", "aviation", "ayurveda", "commerce", "design", "engineering", "hotel_management", "law", "medicine", "nursing", "paramedical", "science", "teaching"]
 
   return (
     <div>

@@ -13,8 +13,8 @@ const Home = () => {
       <Header />
       <hr />
       <div className="container row">
-        <div className="col-md-1 text-danger font-weight-bold">
-          <br /><br />
+        <div className="col-md-1 d-sm-none d-md-block text-danger font-weight-bold">
+          <br /><br /><br /><br /><br />
           <span id="rotate">BURN&nbsp;TO&nbsp;SHINE</span>
         </div>
         <div className="col-md-7">

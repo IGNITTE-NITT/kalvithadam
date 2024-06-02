@@ -42,42 +42,22 @@ const engineering = () => {
       <h4>IMPORTANT DATES</h4>
       <br />
 
-      <h5>February Session:</h5>
+      <h5>January Session:</h5>
       <Timeline events={ [
-        "Start of application form: First week of Sep",
-        "Release of Admit card: In the month of Jan",
-        "Examination Date: In the month of Feb",
-        "Result: End of Feb",
-        "Counselling: In the month of June"
-      ] } />
-      <br />
-
-      <h5>March Session:</h5>
-      <Timeline events={ [
-        "Start of application form: Second week of Feb",
-        "Release of Admit card: Last week of Feb",
-        "Examination Date: In the month of Mar",
-        "Result: End of Mar",
+        "Start of application form: Mid November 2024",
+        "Release of Admit card: 3 days before the exam",
+        "Examination Date: In the month of January 2025",
+        "Result: End of January 2025 / Beginning of February 2025",
         "Counselling: In the month of June"
       ] } />
       <br />
 
       <h5>April Session:</h5>
       <Timeline events={ [
-        "Start of application form: First week of Mar",
-        "Release of Admit card: Last week of Mar",
-        "Examination Date: In the month of Apr",
-        "Result: End of Apr",
-        "Counselling: In the month of June"
-      ] } />
-      <br />
-
-      <h5>May Session:</h5>
-      <Timeline events={ [
-        "Start of application form: Second week of Apr",
-        "Release of Admit card: Last week of Apr",
-        "Examination Date: In the month of May",
-        "Result: End of May",
+        "Start of application form: Mid March 2024",
+        "Release of Admit card: 3 days before the exam",
+        "Examination Date: In the month of April 2025",
+        "Result: End of April 2025 / Beginning of May 2025",
         "Counselling: In the month of June"
       ] } />
       <br />
